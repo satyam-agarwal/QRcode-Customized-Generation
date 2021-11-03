@@ -13,7 +13,7 @@ import java.nio.file.Path;
 public class QrGenerator {
 
     public static void main(String []args) throws WriterException, IOException {
-        String qrCodeText = "https://www.qring.eu/call/IOAUREIE";
+        String qrCodeText = "www.example.com";
         String QRPath = "src\\main\\resources\\Qrcode.png";
 
         QRCodeWriter qrCodeWriter = new QRCodeWriter();
